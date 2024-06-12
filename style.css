@@ -1,0 +1,103 @@
+
+body{
+    font-family: Libre Franklin;
+}
+#header{
+    width: 1030px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(233, 77, 15);
+    position: relative;
+}
+#logo{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-image: url("./logo.png");
+    background-repeat: no-repeat;
+    
+}
+#banner{
+    width: 100%;
+    height: 450px;
+    
+    
+    position: absolute;
+    top:150px;
+    background-image: url("./banner2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#banner > h2{
+    text-align: center;
+    color: rgb(240, 243, 69);
+    font-size: 50px;
+    margin-top: 120px;
+    text-shadow: 3px 3px 2px rgb(99, 72, 65);
+}        
+
+pre{
+    width: 1030px;
+    height: auto;
+    margin: 100px auto;
+}
+
+#main{
+    width: 1030px;
+    height: auto;
+    margin: 100px auto;
+}
+#head{
+    width: 1030px;
+    height: 50px;
+    margin: auto;
+    background-color: white;
+    padding: 0px;
+    
+    margin-top: 120px;
+}
+
+#head > h4{
+    text-align: center;
+    color: rgb(221, 51, 8);
+}
+button{
+    display: block;
+    margin: 2px auto;
+    width: 70px;
+    height: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: chocolate;
+    color: aliceblue;
+}
+#container{
+    margin-top: 40px;
+    width: 505px;
+    height: 500px;
+    background-color: bisque;
+    padding: 5px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    
+}
+#container div{
+    background-color: rgb(167, 139, 194);
+    width: 90px;
+    height: 90px;
+    margin: 0px;
+    padding: 3px;
+}
+
+#container > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}

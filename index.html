@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+                rel="stylesheet">
+</head>
+
+<body>
+        <div id="header">
+                <div id="logo">
+
+                </div>
+                <div id="banner">
+                        <h2>
+                                <pre>
+SỰ KIỆN BỘ MÔN 
+LẬP TRÌNH GAME XẾP HÌNH
+                        </pre>
+                        </h2>
+                </div>
+        </div>
+
+
+
+        <div id="main">
+                <div id="head">
+
+                        <h4>ĐỘI STONKS</h4>
+                        <div id="chonanh">
+                                <label for="">
+                                        Ảnh mẫu:
+                                </label>
+                                
+                                <input type="file" onchange="upLoadFile()" multiple id="input" required>
+
+                                <br>
+                                <button id="player" onclick="play()">Play</button>
+
+                                <button id="replayer" onclick="playAgain()">RePlay</button>
+
+                        </div>
+                </div>
+                <div id="container">
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()"></div>
+
+
+                </div>
+
+                <div id="container">
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img1" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img2" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img3" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img4" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img5" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img6" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img7" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img8" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img9" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img10" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img11" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img12" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img13" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img14" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img15" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img16" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img17" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img18" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img19" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img20" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img21" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img22" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img23" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img24" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+                        <div class="item" ondragover="choThaVao()" ondrop="thaXong()">
+                                <img id="img25" src="STONKS.jpg" alt="" draggable="true"
+                                        ondragstart="batDauKeo()" onclick="hieuUng()">
+                        </div>
+
+                </div>
+        </div>
+
+
+        <script src="./script.js">
+
+        </script>
+</body>
+
+</html>
